@@ -19,7 +19,10 @@ const Button = (props) => {
         letterSpacing: '1.2px',
         textTransform: 'uppercase'
       }}
-      onClick={handleClick}
+      onClick={() => {
+        window.navigator.vibrate(50);
+        handleClick();
+      }}
     >
       {text}
     </button>
