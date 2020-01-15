@@ -34,7 +34,7 @@ function App() {
         style={{
           position: 'absolute',
           zIndex: -1,
-          top: '100vh'
+          top: '93vh'
         }}
       >
         Made with <span role="img" aria-label="black heart emoji">🖤</span> by <span style={{ textDecoration: 'underline', cursor: 'pointer' }} onClick={() => window.open('https://sumeetrohra.com')}>Sumeet Rohra</span>
