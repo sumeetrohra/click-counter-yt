@@ -20,7 +20,7 @@ const Button = (props) => {
         textTransform: 'uppercase'
       }}
       onClick={() => {
-        window.navigator.vibrate(50);
+        window.navigator.vibrate(25);
         handleClick();
       }}
     >
