@@ -1,13 +1,13 @@
 import React from 'react';
 
 const Button = (props) => {
-  const { text, handleClick } = props;
+  const { text, handleClick, bold } = props;
   return (
     <button
       style={{
         outline: 'none',
         boxShadow: '0 6px #555',
-        fontSize: '20px',
+        fontSize: bold ? '40px' : '20px',
         border: 'none',
         backgroundColor: '#222',
         color: '#fff',
@@ -15,7 +15,7 @@ const Button = (props) => {
         margin: '1.5vh',
         fontFamily: 'inherit',
         padding: '8px 20px',
-        fontWeight: '500',
+        fontWeight: '700',
         letterSpacing: '1.2px',
         textTransform: 'uppercase'
       }}

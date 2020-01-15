@@ -26,8 +26,8 @@ function App() {
       >Click Counter</h1>
       <Counter count={count} />
       <ButtonGroupHorizontal>
-        <Button handleClick={incrementCount} text="Increment" />
-        <Button handleClick={decrementCount} text="Decrement" />
+        <Button handleClick={incrementCount} text="+" bold />
+        <Button handleClick={decrementCount} text="-" bold />
       </ButtonGroupHorizontal>
       <Button text="Reset" handleClick={resetCounter} />
     </Container>

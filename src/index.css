@@ -14,9 +14,3 @@ button:active {
   transform: translateY(6px);
 }
 
-
-@media (max-width: 425px) {
-  * {
-    flex-direction: column !important;
-  }
-}
