@@ -30,6 +30,15 @@ function App() {
         <Button handleClick={decrementCount} text="-" bold />
       </ButtonGroupHorizontal>
       <Button text="Reset" handleClick={resetCounter} />
+      <p
+        style={{
+          position: 'absolute',
+          zIndex: -1,
+          top: '100vh'
+        }}
+      >
+        Made with <span role="img" aria-label="black heart emoji">🖤</span> by <span style={{ textDecoration: 'underline', cursor: 'pointer' }} onClick={() => window.open('https://sumeetrohra.com')}>Sumeet Rohra</span>
+      </p>
     </Container>
   );
 }
